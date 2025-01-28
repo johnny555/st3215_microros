@@ -8,13 +8,13 @@ Repo for controlling a SO-100 arm using the Waveshare ESP32 served driver board:
 
 Use platform.io to compile and upload to your ESP-32 chip. 
 
-## Config platform.io for you system.
+## Config platformio.ini for you system.
 
-Open `platform.io` and look at the build flags. We need to modify these to suit your robot. 
+Open `platformio.ini` and look at the build flags. We need to modify these to suit your robot. 
 
 Change the JOINT_IDS to reflect what motor ids are in the joints of your arm. Note that you need to get the order the same as the joint names list above. 
 
-Make sure to set your WIFI SSID and password in `platform.io`, as well as the ip address of your agent computer. 
+Make sure to set your WIFI SSID and password in `platformio.ini`, as well as the ip address of your agent computer. 
 
 
 ## Run Micro Ros Agent
